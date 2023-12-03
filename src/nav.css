@@ -1,0 +1,29 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.compName {
+  color: whitesmoke;
+}
+.nav__blak {
+  background-color: #111;
+}
+.nav__logo {
+  position: relative;
+  left: 10px;
+  height: inherit;
+  object-fit: contain;
+}
+.nav__avatar {
+  position: relative;
+  right: 10px;
+  height: inherit;
+  object-fit: contain;
+}
