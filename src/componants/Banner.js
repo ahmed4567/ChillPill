@@ -37,6 +37,7 @@ function Banner() {
         width: "100%",
         backgroundSize: "cover",
         backgroundPosition: "center center",
+        loading: "lazy",
         backgroundImage: `url(${basUrl}${movies?.backdrop_path})`,
       }}
     >

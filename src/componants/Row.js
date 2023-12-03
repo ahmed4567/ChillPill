@@ -60,6 +60,7 @@ function Row({ title, fechUrl, isLargeRow }) {
           <img
             onClick={() => handelPosterClik(movie)}
             key={movie.id}
+            loading="lazy"
             className={`row__poster ${isLargeRow && "row__posterLarge"}`}
             src={`${basUrl}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
