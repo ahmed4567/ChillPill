@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 function App() {
-  
+  const [userLogedin, setUserState] = useState(true);
   return (
     <div className="app">
       <Router>
