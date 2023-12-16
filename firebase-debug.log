@@ -1,0 +1,71 @@
+[debug] [2023-12-16T14:45:54.728Z] ----------------------------------------------------------------------
+[debug] [2023-12-16T14:45:54.731Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-12-16T14:45:54.732Z] CLI Version:   13.0.2
+[debug] [2023-12-16T14:45:54.732Z] Platform:      win32
+[debug] [2023-12-16T14:45:54.732Z] Node Version:  v20.10.0
+[debug] [2023-12-16T14:45:54.732Z] Time:          Sat Dec 16 2023 06:45:54 GMT-0800 (Pacific Standard Time)
+[debug] [2023-12-16T14:45:54.732Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-16T14:45:54.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-16T14:45:54.825Z] > authorizing via signed-in user (ahmed.ashref.1197@gmail.com)
+[debug] [2023-12-16T14:45:54.825Z] [iam] checking project chillpilltv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-12-16T14:45:54.827Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions [none]
+[debug] [2023-12-16T14:45:54.828Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions x-goog-quota-user=projects/chillpilltv
+[debug] [2023-12-16T14:45:54.828Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-12-16T14:45:55.959Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions 401
+[debug] [2023-12-16T14:45:55.959Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"service":"cloudresourcemanager.googleapis.com","method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions"}}]}}
+[debug] [2023-12-16T14:45:55.960Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-12-16T14:45:55.961Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv [none]
+[debug] [2023-12-16T14:45:56.314Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv 401
+[debug] [2023-12-16T14:45:56.315Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-12-16T14:45:56.315Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2023-12-16T14:54:06.471Z] ----------------------------------------------------------------------
+[debug] [2023-12-16T14:54:06.474Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-16T14:54:06.474Z] CLI Version:   13.0.2
+[debug] [2023-12-16T14:54:06.475Z] Platform:      win32
+[debug] [2023-12-16T14:54:06.475Z] Node Version:  v20.10.0
+[debug] [2023-12-16T14:54:06.475Z] Time:          Sat Dec 16 2023 06:54:06 GMT-0800 (Pacific Standard Time)
+[debug] [2023-12-16T14:54:06.475Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-16T14:54:06.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-16T14:54:06.561Z] > authorizing via signed-in user (ahmed.ashref.1197@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\ahemd\personal\portfolio\nittflix\chillpill
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-12-16T14:59:19.686Z] ----------------------------------------------------------------------
+[debug] [2023-12-16T14:59:19.693Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-12-16T14:59:19.693Z] CLI Version:   13.0.2
+[debug] [2023-12-16T14:59:19.693Z] Platform:      win32
+[debug] [2023-12-16T14:59:19.693Z] Node Version:  v20.10.0
+[debug] [2023-12-16T14:59:19.694Z] Time:          Sat Dec 16 2023 16:59:19 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-12-16T14:59:19.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-16T14:59:19.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-16T14:59:19.833Z] > authorizing via signed-in user (ahmed.ashref.1197@gmail.com)
+[debug] [2023-12-16T14:59:19.834Z] [iam] checking project chillpilltv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-12-16T14:59:19.838Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions [none]
+[debug] [2023-12-16T14:59:19.839Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions x-goog-quota-user=projects/chillpilltv
+[debug] [2023-12-16T14:59:19.839Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-12-16T14:59:20.881Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions 401
+[debug] [2023-12-16T14:59:20.882Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/chillpilltv:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"service":"cloudresourcemanager.googleapis.com","method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions"}}]}}
+[debug] [2023-12-16T14:59:20.883Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-12-16T14:59:20.884Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv [none]
+[debug] [2023-12-16T14:59:21.282Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv 401
+[debug] [2023-12-16T14:59:21.283Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chillpilltv {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-12-16T14:59:21.284Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
